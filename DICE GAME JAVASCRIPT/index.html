@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document`</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       
+        <h1><span id="h1">Dice Game</span></h1>
+        <h3 id="msg" class="msg"></h3>
+        <div class="container main">
+            <div onclick="tryLuck(1)" class="box">1</div>
+            <div onclick="tryLuck(2)" class="box">2</div>
+            <div onclick="tryLuck(3)" class="box">3</div>
+            <div onclick="tryLuck(4)" class="box">4</div>
+            <div onclick="tryLuck(5)" class="box">5</div>
+            <div onclick="tryLuck(6)" class="box">6</div>
+        </div>
+
+        <div class="container container3">
+            <div class="info_box"> <b>User Number : </b> <span id="user_number"> 0</span>  </div>
+            <div class="info_box"> <b>Random Number : </b> <span id="random_number"> 0</span> </div>
+            <div id="info_box_result" class="info_box"> <b id="result">You Loss / Win</b></div>
+        </div> 
+
+        <div class="container container2">
+            <div class="info_box"> <b>Turns :</b> <span id="total">10</span> </div>
+            <div class="info_box"> <b>Win :</b><span id="win">0</span>   </div>
+            <div class="info_box"> <b>Loss :</b> <span id="loss">0</span>  </div>
+        </div> 
+
+    <script src="script.js"></script>
+</body>
+</html>
